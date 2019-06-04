@@ -2,7 +2,7 @@ applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets.apps.pcf.paltraining.perficient.com
+  - route: timesheets-shreyas.apps.pcf.paltraining.perficient.com
   memory: 1G
   instances: 1
   env:

@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route:  backlog.apps.pcf.paltraining.perficient.com
+  - route:  backlog-shreyas.apps.pcf.paltraining.perficient.com
   memory: 1G
   instances: 1
   env:
